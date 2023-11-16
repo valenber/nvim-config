@@ -14,7 +14,7 @@ opt.shiftwidth = 2
 opt.shiftround = true
 opt.expandtab = true
 opt.hlsearch = true
---
+
 -- keep undo history across sessions
 opt.undofile = true
 
@@ -24,6 +24,9 @@ opt.timeoutlen = 300
 
 -- Set completeopt to have a better completion experience
 opt.completeopt = "menuone,noselect"
+
+-- search case insensitive esc
+opt.ignorecase = true
 
 -- remove search highlight when moving cursor
 local keymap = vim.keymap.set
