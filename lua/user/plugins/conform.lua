@@ -16,6 +16,7 @@ return {
         html = { "prettierd" },
         json = { "fixjson" },
         nix = { "alejandra" },
+        markdown = { "mdformat" },
       },
       format_on_save = {
         lsp_fallback = true,

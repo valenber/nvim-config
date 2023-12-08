@@ -43,3 +43,12 @@ vim.cmd([[
     autocmd TextYankPost * silent! lua vim.highlight.on_yank({higroup="YankHighlight", timeout=400})
   augroup END
 ]])
+
+vim.cmd([[
+  augroup markdown
+    autocmd!
+    autocmd FileType markdown setlocal wrap
+    autocmd FileType markdown setlocal textwidth=80
+    autocmd FileType markdown setlocal formatoptions+=t
+  augroup END
+]])
