@@ -21,7 +21,7 @@ return {
     vim.lsp.set_log_level("off") -- disable logging
 
     mason_lspconfig.setup({
-      ensure_installed = { "lua_ls", "tsserver", "cssls", "html", "emmet_ls", "pyright" },
+      ensure_installed = { "lua_ls", "tsserver", "cssls", "html", "emmet_ls" },
       automatic_installation = true,
     })
 

@@ -17,7 +17,6 @@ return {
         json = { "fixjson" },
         nix = { "alejandra" },
         markdown = { "mdformat" },
-        python = { "black" },
       },
       format_on_save = {
         lsp_fallback = true,
